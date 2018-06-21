@@ -1829,7 +1829,7 @@ body {
   }
 }
 .cid-qTkAaeaxX5 {
-  padding-top: 0px;
+  padding-top: 15px;
   padding-bottom: 0px;
   background-color: #232323;
 }
@@ -1894,4 +1894,7 @@ body {
     justify-content: center;
     -webkit-justify-content: center;
   }
+}
+.cid-qTkAaeaxX5 P {
+  color: #f7ed4a;
 }

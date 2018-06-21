@@ -657,6 +657,9 @@
               }
             },
             "P": {
+              "color": "#ffffff"
+            },
+            "H5": {
               "color": "#f7ed4a"
             }
           },

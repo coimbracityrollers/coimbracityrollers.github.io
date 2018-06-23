@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Coimbra City Rollers",
-    "currentPage": "comunidade.html",
+    "currentPage": "media.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -43,7 +43,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 34,
+    "uniqCompNum": 35,
     "versionPublish": "4.7.8",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
@@ -1550,7 +1550,7 @@
             "Extesões"
           ],
           "_name": "instagram-feed-block",
-          "_anchor": "instagram-feed-block-x"
+          "_anchor": "instagram-feed-block-y"
         },
         {
           "_styles": {

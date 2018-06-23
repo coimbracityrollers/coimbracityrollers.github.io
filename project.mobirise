@@ -43,7 +43,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 33,
+    "uniqCompNum": 34,
     "versionPublish": "4.7.8",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
@@ -1522,27 +1522,27 @@
         {
           "_params": {
             "token": "4857844779.727bfe1.95bbb2ecf0204c15b39fccb550dd7a2a",
-            "showTitle": false,
+            "showTitle": true,
             "layoutGridRadio": true,
             "imagesPerRowGrid": 4,
             "rows": 2,
-            "showMoreButton": false,
+            "showMoreButton": true,
             "layoutSliderRadio": false,
             "imagesPerRowSlider": 4,
             "spacing": 5,
-            "fullWidth": true,
+            "fullWidth": false,
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgColorRadio": false,
             "bgColor": "#fafafa",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/cf018110-1800x1013.jpg",
-            "overlay": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/instagram-background.jpg",
+            "overlay": false,
             "overlayColor": "#efefef",
             "overlayOpacity": 0.6
           },
           "title": "Instagram Feed",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-max-id=\"1797443922672550415_4857844779\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Show more</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"#\">Show more</a>",
           "display2": "display-2",
           "display4": "display-4",
           "alias": "instagram-feed",
@@ -1550,7 +1550,7 @@
             "Extesões"
           ],
           "_name": "instagram-feed-block",
-          "_anchor": "instagram-feed-block-t"
+          "_anchor": "instagram-feed-block-x"
         },
         {
           "_styles": {

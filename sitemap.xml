@@ -1,17 +1,12 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<url>
-		<loc>https://coimbracityrollers.github.xn--io/sitemap-.xml/index.html</loc>
-	</url>
-	<url>
-		<loc>https://coimbracityrollers.github.xn--io/sitemap-.xml/quemsomos.html</loc>
-	</url>
-	<url>
-		<loc>https://coimbracityrollers.github.xn--io/sitemap-.xml/media.html</loc>
-	</url>
-	<url>
-		<loc>https://coimbracityrollers.github.xn--io/sitemap-.xml/comunidade.html</loc>
-	</url>
-	<url>
-		<loc>https://coimbracityrollers.github.xn--io/sitemap-.xml/contactos.html</loc>
-	</url>
+<<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://itsantonioj.github.io/</loc>
+  </url>
+  <url>
+    <loc>https://itsantonioj.github.io/ccrteste/</loc>
+  </url>
 </urlset>
+<!--<guid value="5b20419d-a312-4a09-93eb-ab32e1a66add" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->

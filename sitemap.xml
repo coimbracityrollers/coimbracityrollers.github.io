@@ -1,10 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <url>
-    <loc>http://ww1.coimbracityrollers.gitub.io/</loc>
-    <changefreq>monthly</changefreq>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://coimbracityrollers.github.xn--io/sitemap-.xml/index.html</loc>
+	</url>
+	<url>
+		<loc>https://coimbracityrollers.github.xn--io/sitemap-.xml/quemsomos.html</loc>
+	</url>
+	<url>
+		<loc>https://coimbracityrollers.github.xn--io/sitemap-.xml/media.html</loc>
+	</url>
+	<url>
+		<loc>https://coimbracityrollers.github.xn--io/sitemap-.xml/comunidade.html</loc>
+	</url>
+	<url>
+		<loc>https://coimbracityrollers.github.xn--io/sitemap-.xml/contactos.html</loc>
+	</url>
 </urlset>
-<!--<guid value="d20683ef-e083-4745-b4c3-48360229ebf4" />-->
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->

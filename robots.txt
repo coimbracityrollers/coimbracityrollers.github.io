@@ -1,4 +1,2 @@
 User-agent: *
-Allow: /
-Allow: /sitemap.htm
-Sitemap: http://ww1.coimbracityrollers.gitub.io/sitemap.xml
+Disallow: /cgi-bin

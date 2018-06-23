@@ -3579,7 +3579,7 @@ body {
 .cid-qVNMoufsDs {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #ffffff;
+  background-image: url("../../../assets/images/cf018110-1800x1013.jpg");
 }
 .cid-qVNMoufsDs .title {
   margin-bottom: 2rem;
@@ -3606,6 +3606,15 @@ body {
 }
 .cid-qVNMoufsDs .mbr-section-subtitle H2 {
   text-align: center;
+}
+.cid-qVNMoufsDs H2 {
+  color: #fafafa;
+}
+.cid-qVNMoufsDs .mbr-section-subtitle B {
+  color: #fafafa;
+}
+.cid-qVNMoufsDs LABEL {
+  color: #fafafa;
 }
 .cid-qVNXBnbCDS {
   padding-top: 15px;

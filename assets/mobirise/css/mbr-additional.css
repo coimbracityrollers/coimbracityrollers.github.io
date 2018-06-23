@@ -2157,10 +2157,11 @@ body {
 .cid-qVNQ8iY9r3 {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #ffffff;
+  background-image: url("../../../assets/images/cf018110-1800x1013.jpg");
 }
 .cid-qVNQ8iY9r3 .mbr-section-subtitle {
   color: #767676;
+  text-align: left;
 }
 .cid-qVNQ8iY9r3 .media-container-row {
   -webkit-flex-wrap: wrap;
@@ -2169,6 +2170,7 @@ body {
 }
 .cid-qVNQ8iY9r3 .mbr-text {
   color: #767676;
+  text-align: left;
 }
 .cid-qVNQ8iY9r3 .mbr-author-desc {
   display: block;

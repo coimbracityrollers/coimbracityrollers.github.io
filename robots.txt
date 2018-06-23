@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 Allow: /sitemap.htm
 Sitemap: https://itsantonioj.github.io/sitemap.xml
+

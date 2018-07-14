@@ -45,7 +45,7 @@
     "versionFirst": "4.7.6",
     "uniqCompNum": 68,
     "versionPublish": "4.8.1",
-    "robotsText": "User-agent: *\nAllow: /\nAllow: /sitemap.htm\nSitemap: https://itsantonioj.github.io/sitemap.xml\n\n",
+    "robotsText": "User-agent: *\nAllow: /\nAllow: /sitemap.htm\nSitemap: https://coimbracityrollers.github.io/sitemap.xml\n\n\n",
     "robotsSwitcher": "on",
     "siteUrl": "https://coimbracityrollers.github.io/sitemap.xml",
     "sitemapSwitcherAuto": "",

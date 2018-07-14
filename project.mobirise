@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Coimbra City Rollers",
-    "currentPage": "media.html",
+    "currentPage": "comunidade.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -2057,9 +2057,9 @@
             "twitter": "",
             "google": "",
             "youtube": "UC1fkTSa2ZTJmOra9SnMMqSw",
-            "bgColorRadio": false,
-            "bgColor": "#fff",
-            "bgImageRadio": true,
+            "bgColorRadio": true,
+            "bgColor": "#212121",
+            "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/cf018110-1800x1013.jpg",
             "overlay": true,
             "overlayColor": "#7e9b9f",

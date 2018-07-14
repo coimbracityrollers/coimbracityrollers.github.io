@@ -2160,7 +2160,7 @@ body {
   background-image: url("../../../assets/images/cf018110-1800x1013.jpg");
 }
 .cid-qVNQ8iY9r3 .mbr-section-subtitle {
-  color: #767676;
+  color: #ffffff;
   text-align: left;
 }
 .cid-qVNQ8iY9r3 .media-container-row {
@@ -2169,7 +2169,7 @@ body {
   flex-wrap: wrap;
 }
 .cid-qVNQ8iY9r3 .mbr-text {
-  color: #767676;
+  color: #ffffff;
   text-align: left;
 }
 .cid-qVNQ8iY9r3 .mbr-author-desc {
@@ -2180,7 +2180,7 @@ body {
   color: #d4e700;
 }
 .cid-qVNQ8iY9r3 .mbr-testimonial .panel-item {
-  background-color: #212121;
+  background-color: #465052;
 }
 .cid-qVNQ8iY9r3 .mbr-testimonial .card-block {
   -webkit-flex-grow: 0;
@@ -2667,6 +2667,9 @@ body {
 .cid-qUtiykoFNK .nav-link:hover,
 .cid-qUtiykoFNK .dropdown-item:hover {
   color: #c1c1c1 !important;
+}
+#instagram-feed-block-1u .inst__title {
+  color: #d4e700;
 }
 .cid-qW6xTGDPmi {
   padding-top: 15px;

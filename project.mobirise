@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Coimbra City Rollers",
-    "currentPage": "contactos.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -43,7 +43,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 74,
+    "uniqCompNum": 75,
     "versionPublish": "4.8.1",
     "robotsText": "User-agent: *\nAllow: /\nAllow: /sitemap.htm\nSitemap: https://coimbracityrollers.github.io/sitemap.xml\n\n\n",
     "robotsSwitcher": "on",
@@ -512,6 +512,63 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_styles": {
+            ".panel-body": {
+              "padding": "15px"
+            },
+            "modal": {
+              "display": "mone",
+              "position": "fixed",
+              "zIndex": "1",
+              "paddingTop": "100px",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "overflow": "auto",
+              "backgroundColor": "rgba(0,0,0,0.4)"
+            },
+            "modal_content": {
+              "backgroundColor": "#fefefe",
+              "margin": "auto",
+              "padding": "20px",
+              "border": "1px solid #888",
+              "width": "60%"
+            },
+            "close": {
+              "color": "#aaaaaa",
+              "float": "right",
+              "fontSize": "28px",
+              "fontWeight": "bold"
+            },
+            "close_hover": {
+              "color": "#000",
+              "textDecoration": "none",
+              "cursor": "pointer"
+            },
+            "close_focus": {
+              "color": "#000",
+              "textDecoration": "none",
+              "cursor": "pointer"
+            }
+          },
+          "_params": {
+            "showModal": true,
+            "myModalId": "myModal",
+            "blockTitle": "",
+            "text": "<script type=\"text/javascript\" src=\"//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js\" data-dojo-config=\"usePlainJson: true, isDebug: false\"></script><script type=\"text/javascript\">window.dojoRequire([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us18.list-manage.com\",\"uuid\":\"3aae2281b13a4bff98049af4c\",\"lid\":\"43bc4f0ce5\",\"uniqueMethods\":true}) })</script>",
+            "bgColor": "#fefefe"
+          },
+          "blockTitle": "",
+          "text": "<script type=\"text/javascript\" src=\"//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js\" data-dojo-config=\"usePlainJson: true, isDebug: false\"></script><script type=\"text/javascript\">window.dojoRequire([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us18.list-manage.com\",\"uuid\":\"3aae2281b13a4bff98049af4c\",\"lid\":\"43bc4f0ce5\",\"uniqueMethods\":true}) })</script>",
+          "alias": "modalblock",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "modal-block",
+          "_anchor": "modal-block-22"
         }
       ]
     },

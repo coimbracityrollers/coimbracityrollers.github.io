@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Coimbra City Rollers",
-    "currentPage": "privacy.html",
+    "currentPage": "newsletter.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -43,7 +43,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 87,
+    "uniqCompNum": 94,
     "versionPublish": "4.8.6",
     "robotsText": "User-agent: *\nAllow: /\nAllow: /sitemap.htm\nSitemap: https://coimbracityrollers.github.io/sitemap.xml\n\n\n",
     "robotsSwitcher": "on",
@@ -5246,9 +5246,9 @@
     },
     "privacy.html": {
       "settings": {
-        "meta_descr": "Política de privacidade dos Coimbra City Rollers",
+        "meta_descr": "Subscreve a newsletter Coimbra City Rollers e recebe mensalmente as ultimas notícias, dicas e os melhores clipes de patinagem.",
         "title": "Política de privacidade",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -5824,6 +5824,562 @@
           "_once": false,
           "_params": {},
           "_anchor": "footer1-2e"
+        }
+      ]
+    },
+    "newsletter.html": {
+      "settings": {
+        "meta_descr": "Subscreve a newsletter Coimbra City Rollers e recebe mensalmente as ultimas notícias, dicas e os melhores clipes de patinagem.",
+        "title": "Coimbra City Rollers - Newsletter",
+        "order": 9
+      },
+      "components": [
+        {
+          "_styles": {
+            ".navbar": {
+              "padding": ".5rem 0",
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              },
+              "display": "inline-flex",
+              "align-items": "center"
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "-webkit-flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "display": "none",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "display": "block"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column"
+              },
+              ".btn": {
+                "display": "flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-expand": {
+                "flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#212121\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                         <img src=\"@PROJECT_PATH@/assets/images/35755962-203999890424585-4840157976264179712-n-262x122.png\" alt=\"Coimbra City Rollers - patinar em Coimbra\" mbr-style=\"{'height': logoSize + 'rem'}\" title=\"Coimbra City Rollers\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-success\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\"></a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"quemsomos.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">QUEM SOMOS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"patinar.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">PATINAR</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"comunidade.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">COMUNIDADE</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"media.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MÉDIA</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"loja.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">LOJA CCR</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"contactos.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACTOS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"http://facebook.com/cbrcityrollers\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 15px;\"></span></a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"http://instagram.com/cbrcityrollers\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 15px;\"></span></a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://www.youtube.com/channel/UC1fkTSa2ZTJmOra9SnMMqSw\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 15px;\"></span></a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">Newsletter</a></div>\n        </div>\n    </nav>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "r78eLUS4Gs",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu1-2f"
+        },
+        {
+          "_params": {
+            "blockTitle": "<h3>Block Title</h3>",
+            "HTMLCode": "<h1>HTML Code</h1>",
+            "extEdit": true,
+            "paddingTop": 20,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "blockTitle": "<h3>Block Title</h3>",
+          "HTMLCode": "<h1></h1>",
+          "paddingTop": ".block {padding-bottom:0px; padding-top:0px;}",
+          "alias": "htmlblock",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "htmlblock-block",
+          "_anchor": "htmlblock-block-2k"
+        },
+        {
+          "_params": {
+            "blockTitle": "",
+            "HTMLCode": "<!-- Begin Mailchimp Signup Form -->\n<link href=\"//cdn-images.mailchimp.com/embedcode/classic-10_7.css\" rel=\"stylesheet\" type=\"text/css\">\n<style type=\"text/css\">\n\t#mc_embed_signup{background:#fff; clear:left; font:14px Roboto;  width:1150px;}\n\t/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.\n\t   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */\n</style>\n<style type=\"text/css\">\n\t#mc-embedded-subscribe-form input[type=checkbox]{display: inline; width: auto;margin-right: 10px;}\n\t#mergeRow-gdpr {margin-top: 20px;}\n\t#mergeRow-gdpr fieldset label {font-weight: normal;}\n\t#mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;}\n</style>\n<div id=\"mc_embed_signup\">\n<form action=\"https://github.us18.list-manage.com/subscribe/post?u=3aae2281b13a4bff98049af4c&amp;id=81203f2a43\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n    <div id=\"mc_embed_signup_scroll\">\n\t<h2>Subscreve a nossa Newsletter </h2>\n<div class=\"indicates-required\"><span class=\"asterisk\">*</span> indicates required</div>\n<div class=\"mc-field-group\">\n\t<label for=\"mce-EMAIL\">Email  <span class=\"asterisk\">*</span>\n</label>\n\t<input type=\"email\" value=\"\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\">\n</div>\n<div class=\"mc-field-group input-group\">\n    <strong>_________________________________________ </strong>\n    <ul><li><input type=\"checkbox\" value=\"1\" name=\"group[4301][1]\" id=\"mce-group[4301]-4301-0\"><label for=\"mce-group[4301]-4301-0\">Li e aceitei a política de privacidade</label></li>\n</ul>\n</div>\n<p><a href=\"https://us18.campaign-archive.com/home/?u=3aae2281b13a4bff98049af4c&id=81203f2a43\" title=\"View previous campaigns\">View previous campaigns.</a></p>\n<div id=\"mergeRow-gdpr\" class=\"mergeRow gdpr-mergeRow content__gdprBlock mc-field-group\">\n    <div class=\"content__gdpr\">\n        <label>Permissões de marketing</label>\n        <p>Coimbra City Rollers irá utilizar a informação por si disponibilizada unicamente para lhe enviar a newsletter e informações relacionadas com a comunidade CCR e com o tema da patinagem em geral. Se pretende manter o seu consentimento por favor clique:</p>\n        <fieldset class=\"mc_fieldset gdprRequired mc-field-group\" name=\"interestgroup_field\">\n\t\t<label class=\"checkbox subfield\" for=\"gdpr_18893\"><input type=\"checkbox\" id=\"gdpr_18893\" name=\"gdpr[18893]\" value=\"Y\" class=\"av-checkbox \"><span>Email</span> </label>\n        </fieldset>\n        <p>Poderá mudar de ideias a qualquer momento, para tal basta clicar no link de cancelamento de inscrição  Nós trataremos suas informações com respeito. Para mais informações sobre as nossas práticas, consulte a nossa política de privacidade.</p>\n    </div>\n    <div class=\"content__gdprLegal\">\n        <p><a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>We<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>use<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>Mailchimp<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>as<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>our<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>marketing<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>platform<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>. <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>By<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>clicking<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>below<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>to<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>subscribe<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>, <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>you<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>acknowledge<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>that<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>your<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>information<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>will<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>be<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>transferred<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>to<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>Mailchimp<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>for<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>processing<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>. <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>Learn<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>more<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>about<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>Mailchimp<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>'<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>s<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>privacy<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>practices<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>here<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>.</p>\n    </div>\n</div>\n\t<div id=\"mce-responses\" class=\"clear\">\n\t\t<div class=\"response\" id=\"mce-error-response\" style=\"display:none\"></div>\n\t\t<div class=\"response\" id=\"mce-success-response\" style=\"display:none\"></div>\n\t</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->\n    <div style=\"position: absolute; left: -5000px;\" aria-hidden=\"true\"><input type=\"text\" name=\"b_3aae2281b13a4bff98049af4c_81203f2a43\" tabindex=\"-1\" value=\"\"></div>\n    <div class=\"clear\"><input type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button\"></div>\n    </div>\n</form>\n</div>\n\n<!--End mc_embed_signup-->",
+            "extEdit": false,
+            "paddingTop": "0",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/cf018110-1800x1013.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "blockTitle": "",
+          "HTMLCode": "<!-- Begin Mailchimp Signup Form -->\n<link href=\"//cdn-images.mailchimp.com/embedcode/classic-10_7.css\" rel=\"stylesheet\" type=\"text/css\">\n<style type=\"text/css\">\n\t#mc_embed_signup{background:#fff; clear:left; font:14px Roboto;  width:1150px;}\n\t/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.\n\t   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */\n</style>\n<style type=\"text/css\">\n\t#mc-embedded-subscribe-form input[type=checkbox]{display: inline; width: auto;margin-right: 10px;}\n\t#mergeRow-gdpr {margin-top: 20px;}\n\t#mergeRow-gdpr fieldset label {font-weight: normal;}\n\t#mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;}\n</style>\n<div id=\"mc_embed_signup\">\n<form action=\"https://github.us18.list-manage.com/subscribe/post?u=3aae2281b13a4bff98049af4c&amp;id=81203f2a43\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n    <div id=\"mc_embed_signup_scroll\">\n\t<h2>Subscreve a nossa Newsletter </h2>\n<div class=\"indicates-required\"><span class=\"asterisk\">*</span> indicates required</div>\n<div class=\"mc-field-group\">\n\t<label for=\"mce-EMAIL\">Email  <span class=\"asterisk\">*</span>\n</label>\n\t<input type=\"email\" value=\"\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\">\n</div>\n<div class=\"mc-field-group input-group\">\n    <strong>_________________________________________ </strong>\n    <ul><li><input type=\"checkbox\" value=\"1\" name=\"group[4301][1]\" id=\"mce-group[4301]-4301-0\"><label for=\"mce-group[4301]-4301-0\">Li e aceitei a política de privacidade</label></li>\n</ul>\n</div>\n<p><a href=\"https://us18.campaign-archive.com/home/?u=3aae2281b13a4bff98049af4c&id=81203f2a43\" title=\"View previous campaigns\">View previous campaigns.</a></p>\n<div id=\"mergeRow-gdpr\" class=\"mergeRow gdpr-mergeRow content__gdprBlock mc-field-group\">\n    <div class=\"content__gdpr\">\n        <label>Permissões de marketing</label>\n        <p>Coimbra City Rollers irá utilizar a informação por si disponibilizada unicamente para lhe enviar a newsletter e informações relacionadas com a comunidade CCR e com o tema da patinagem em geral. Se pretende manter o seu consentimento por favor clique:</p>\n        <fieldset class=\"mc_fieldset gdprRequired mc-field-group\" name=\"interestgroup_field\">\n\t\t<label class=\"checkbox subfield\" for=\"gdpr_18893\"><input type=\"checkbox\" id=\"gdpr_18893\" name=\"gdpr[18893]\" value=\"Y\" class=\"av-checkbox \"><span>Email</span> </label>\n        </fieldset>\n        <p>Poderá mudar de ideias a qualquer momento, para tal basta clicar no link de cancelamento de inscrição  Nós trataremos suas informações com respeito. Para mais informações sobre as nossas práticas, consulte a nossa política de privacidade.</p>\n    </div>\n    <div class=\"content__gdprLegal\">\n        <p><a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>We<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>use<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>Mailchimp<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>as<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>our<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>marketing<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>platform<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>. <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>By<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>clicking<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>below<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>to<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>subscribe<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>, <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>you<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>acknowledge<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>that<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>your<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>information<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>will<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>be<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>transferred<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>to<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>Mailchimp<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>for<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>processing<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>. <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>Learn<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>more<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>about<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>Mailchimp<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>'<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>s<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>privacy<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>practices<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a> <a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>here<a href=\"https://mailchimp.com/legal/\" target=\"_blank\"></a>.</p>\n    </div>\n</div>\n\t<div id=\"mce-responses\" class=\"clear\">\n\t\t<div class=\"response\" id=\"mce-error-response\" style=\"display:none\"></div>\n\t\t<div class=\"response\" id=\"mce-success-response\" style=\"display:none\"></div>\n\t</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->\n    <div style=\"position: absolute; left: -5000px;\" aria-hidden=\"true\"><input type=\"text\" name=\"b_3aae2281b13a4bff98049af4c_81203f2a43\" tabindex=\"-1\" value=\"\"></div>\n    <div class=\"clear\"><input type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button\"></div>\n    </div>\n</form>\n</div>\n\n<!--End mc_embed_signup-->",
+          "paddingTop": ".block {padding-bottom:0px; padding-top:0px;}",
+          "alias": "htmlblock",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "htmlblock-block",
+          "_anchor": "htmlblock-block-2l"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".content": {
+              "@media (max-width: 767px)": {
+                "text-align": "center",
+                "> div:not(:last-child)": {
+                  "margin-bottom": "2rem"
+                }
+              }
+            },
+            ".media-wrap": {
+              "@media (max-width: 767px)": {
+                "margin-bottom": "1rem"
+              },
+              ".mbr-iconfont-logo": {
+                "font-size": "7.5rem",
+                "color": "#f36"
+              },
+              "img": {
+                "height": "6rem"
+              }
+            },
+            ".footer-lower": {
+              ".copyright": {
+                "@media (max-width: 767px)": {
+                  "margin-bottom": "1rem",
+                  "text-align": "center"
+                }
+              },
+              "hr": {
+                "margin": "1rem 0",
+                "border-color": "#fff",
+                "opacity": ".05"
+              },
+              ".social-list": {
+                "padding-left": "0",
+                "margin-bottom": "0",
+                "list-style": "none",
+                "display": "flex",
+                "flex-wrap": "wrap",
+                "justify-content": "flex-end",
+                "-webkit-justify-content": "flex-end",
+                ".mbr-iconfont-social": {
+                  "font-size": "1.3rem",
+                  "color": "#fff"
+                },
+                ".soc-item": {
+                  "margin": "0 .5rem"
+                },
+                "a": {
+                  "margin": "0",
+                  "opacity": ".5",
+                  "-webkit-transition": ".2s linear",
+                  "transition": ".2s linear",
+                  "&:hover": {
+                    "opacity": "1"
+                  }
+                },
+                "@media (max-width: 767px)": {
+                  "justify-content": "center",
+                  "-webkit-justify-content": "center"
+                }
+              }
+            },
+            "P": {
+              "color": "#fafafa"
+            },
+            "H5": {
+              "color": "#fafafa"
+            }
+          },
+          "_name": "footer1",
+          "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->  \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\" selected>0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content text-white\">\n            <div class=\"col-12 col-md-3\">\n                <div class=\"media-wrap\">\n                    <a href=\"https://coimbracityrollers.github.io\">\n                        <img src=\"@PROJECT_PATH@/assets/images/35755962-203999890424585-4840157976264179712-n-410x192.png\" alt=\"Logotipo Coimbra City Rollers\" title=\"Coimbra City Rollers\">\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">Links<br></h5>\n                <p class=\"mbr-text\"><a href=\"quemsomos.html\">Quem somos</a><br><a href=\"index.html\">Patinar</a><br><a href=\"comunidade.html\">Comunidade</a><br><a href=\"media.html\">Média</a><br><a href=\"quemsomos.html\">Loja CCR</a><br></p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">Newsletter CCR</h5>\n                <p class=\"mbr-text\"><a href=\"index.html\">Subscrever</a></p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">Contactos</h5>\n                <p class=\"mbr-text\"><a href=\"mailto:cbrcityrollers@gmail.com\">cbrcityrollers@gmail.com</a></p>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\"><i><b>\n                        © 2018 Coimbra City Rollers</b></i></p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"https://facebook.com/cbrciyrollers\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/channel/UC1fkTSa2ZTJmOra9SnMMqSw\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "r78eLWySob",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "footer1-2h"
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Coimbra City Rollers",
-    "currentPage": "loja.html",
+    "currentPage": "aprender-patinar-form.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -44,7 +44,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 85,
+    "uniqCompNum": 87,
     "versionPublish": "4.8.6",
     "robotsText": "User-agent: *\nAllow: /\nAllow: /sitemap.htm\nSitemap: https://coimbracityrollers.github.io/sitemap.xml\n\n\n",
     "robotsSwitcher": "on",
@@ -3905,31 +3905,6 @@
           "_params": {}
         },
         {
-          "_params": {
-            "blockTitle": "Formulário",
-            "HTMLCode": "<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSd4aDg8xOVEwn_P_rxUkjPQ43bNjs5-rgLuDIFznwsQ2nMlCg/viewform?embedded=true\" width=\"1200\" height=\"520\" frameborder=\"1\" marginheight=\"0\" marginwidth=\"0\">Loading...</iframe>",
-            "extEdit": true,
-            "paddingTop": 20,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/cf018110-1800x1013.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
-            "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "blockTitle": "Formulário",
-          "HTMLCode": "<p><span contenteditable=\"false\" data-mce-object=\"iframe\" class=\"mce-preview-object mce-object-iframe\" data-mce-p-marginwidth=\"0\" data-mce-p-marginheight=\"0\" data-mce-p-frameborder=\"1\" data-mce-p-src=\"https://docs.google.com/forms/d/e/1FAIpQLSd4aDg8xOVEwn_P_rxUkjPQ43bNjs5-rgLuDIFznwsQ2nMlCg/viewform?embedded=true\" data-mce-html=\"Loading...\" data-mce-selected=\"2\"><iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSd4aDg8xOVEwn_P_rxUkjPQ43bNjs5-rgLuDIFznwsQ2nMlCg/viewform?embedded=true\" width=\"1200\" height=\"520\" frameborder=\"0\"></iframe><span class=\"mce-shim\"></span></span></p><div data-mce-bogus=\"all\" class=\"mce-offscreen-selection\" id=\"sel-mce_0\" style=\"top: 0px;\">&nbsp;<span contenteditable=\"false\" data-mce-object=\"iframe\" class=\"mce-preview-object mce-object-iframe\" data-mce-p-marginwidth=\"0\" data-mce-p-marginheight=\"0\" data-mce-p-frameborder=\"1\" data-mce-p-src=\"https://docs.google.com/forms/d/e/1FAIpQLSd4aDg8xOVEwn_P_rxUkjPQ43bNjs5-rgLuDIFznwsQ2nMlCg/viewform?embedded=true\" data-mce-html=\"Loading...\"><iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSd4aDg8xOVEwn_P_rxUkjPQ43bNjs5-rgLuDIFznwsQ2nMlCg/viewform?embedded=true\" width=\"1200\" height=\"520\" frameborder=\"0\"></iframe><span class=\"mce-shim\"></span></span>&nbsp;</div>",
-          "paddingTop": ".block {padding-bottom:0px; padding-top:0px;}",
-          "alias": "htmlblock",
-          "_tags": [
-            "Extesões"
-          ],
-          "_name": "htmlblock-block",
-          "_anchor": "htmlblock-block-1x"
-        },
-        {
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -4018,6 +3993,120 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_styles": {
+            ".panel-body": {
+              "padding": "15px"
+            },
+            "modal": {
+              "display": "mone",
+              "position": "fixed",
+              "zIndex": "1",
+              "paddingTop": "100px",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "overflow": "auto",
+              "backgroundColor": "rgba(0,0,0,0.4)"
+            },
+            "modal_content": {
+              "backgroundColor": "#fefefe",
+              "margin": "auto",
+              "padding": "20px",
+              "border": "1px solid #888",
+              "width": "60%"
+            },
+            "close": {
+              "color": "#aaaaaa",
+              "float": "right",
+              "fontSize": "28px",
+              "fontWeight": "bold"
+            },
+            "close_hover": {
+              "color": "#000",
+              "textDecoration": "none",
+              "cursor": "pointer"
+            },
+            "close_focus": {
+              "color": "#000",
+              "textDecoration": "none",
+              "cursor": "pointer"
+            }
+          },
+          "_params": {
+            "showModal": false,
+            "myModalId": "myModal",
+            "blockTitle": "<h1>Modal Block Title</h1>",
+            "text": "<h2>use : javascript:showModal('myModal');<br>as button URL to activate this modal window</h2>",
+            "bgColor": "#fefefe"
+          },
+          "blockTitle": "<h1>Modal Block Title</h1>",
+          "text": "<h2>use : javascript:showModal('myModal');<br>as button URL to activate this modal window</h2>",
+          "alias": "modalblock",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "modal-block",
+          "_anchor": "modal-block-2d"
+        },
+        {
+          "_styles": {
+            ".panel-body": {
+              "padding": "15px"
+            },
+            "modal": {
+              "display": "mone",
+              "position": "fixed",
+              "zIndex": "1",
+              "paddingTop": "100px",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "overflow": "auto",
+              "backgroundColor": "rgba(0,0,0,0.4)"
+            },
+            "modal_content": {
+              "backgroundColor": "#fefefe",
+              "margin": "auto",
+              "padding": "20px",
+              "border": "1px solid #888",
+              "width": "60%"
+            },
+            "close": {
+              "color": "#aaaaaa",
+              "float": "right",
+              "fontSize": "28px",
+              "fontWeight": "bold"
+            },
+            "close_hover": {
+              "color": "#000",
+              "textDecoration": "none",
+              "cursor": "pointer"
+            },
+            "close_focus": {
+              "color": "#000",
+              "textDecoration": "none",
+              "cursor": "pointer"
+            }
+          },
+          "_params": {
+            "showModal": true,
+            "myModalId": "Form",
+            "blockTitle": "",
+            "text": "<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSd4aDg8xOVEwn_P_rxUkjPQ43bNjs5-rgLuDIFznwsQ2nMlCg/viewform?embedded=true\" width=\"1200\" height=\"520\" frameborder=\"1\" marginheight=\"0\" marginwidth=\"0\">Loading...</iframe>",
+            "bgColor": "#554346"
+          },
+          "blockTitle": "",
+          "text": "<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSd4aDg8xOVEwn_P_rxUkjPQ43bNjs5-rgLuDIFznwsQ2nMlCg/viewform?embedded=true\" width=\"1200\" height=\"520\" frameborder=\"1\" marginheight=\"0\" marginwidth=\"0\">Loading...</iframe>",
+          "alias": "modalblock",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "modal-block",
+          "_anchor": "modal-block-2e"
         }
       ]
     },

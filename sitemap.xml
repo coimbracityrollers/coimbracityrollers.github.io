@@ -1,47 +1,38 @@
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://coimbracityrollers.github.io/</loc>
-  <lastmod>2018-07-14T09:52:54+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://coimbracityrollers.github.io/quemsomos.html</loc>
-  <lastmod>2018-07-14T09:52:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://coimbracityrollers.github.io/patinar.html</loc>
-  <lastmod>2018-07-14T09:52:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://coimbracityrollers.github.io/comunidade.html</loc>
-  <lastmod>2018-07-14T09:52:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://coimbracityrollers.github.io/media.html</loc>
-  <lastmod>2018-07-14T09:52:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://coimbracityrollers.github.io/index.html</loc>
-  <lastmod>2018-07-14T09:52:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://coimbracityrollers.github.io/contactos.html</loc>
-  <lastmod>2018-07-14T09:52:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://coimbracityrollers.github.io/index.html</loc>
+	</url>
+	<url>
+		<loc>https://coimbracityrollers.github.io/quemsomos.html</loc>
+	</url>
+	<url>
+		<loc>https://coimbracityrollers.github.io/media.html</loc>
+	</url>
+	<url>
+		<loc>https://coimbracityrollers.github.io/comunidade.html</loc>
+	</url>
+	<url>
+		<loc>https://coimbracityrollers.github.io/contactos.html</loc>
+	</url>
+	<url>
+		<loc>https://coimbracityrollers.github.io/patinar.html</loc>
+	</url>
+	<url>
+		<loc>https://coimbracityrollers.github.io/loja.html</loc>
+	</url>
+	<url>
+		<loc>https://coimbracityrollers.github.io/parceiros.html</loc>
+	</url>
+	<url>
+		<loc>https://coimbracityrollers.github.io/politica-de-privacidade.html</loc>
+	</url>
+	<url>
+		<loc>https://coimbracityrollers.github.io/politica-de-cookies.html</loc>
+	</url>
+	<url>
+		<loc>https://coimbracityrollers.github.io/termos-de-utilizacao.html</loc>
+	</url>
+	<url>
+		<loc>https://coimbracityrollers.github.io/aprender-patinar-form.html</loc>
+	</url>
 </urlset>
-

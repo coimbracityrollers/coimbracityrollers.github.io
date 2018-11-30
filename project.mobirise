@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Coimbra City Rollers",
-    "currentPage": "patinar.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -757,7 +757,7 @@
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",
                 "title": "<b>COIMBRA<br> CITY <br>ROLLERS</b>",
-                "overlay": true,
+                "overlay": false,
                 "contentAlign": "left",
                 "text": "<br><i>Prefiro patinar</i>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"quemsomos.html#menu1-16\" data-toolbar=\"-mbrBtnMove\">SABER MAIS</a> "
@@ -774,7 +774,7 @@
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",
                 "title": "<b>NIGHT </b><br><div><b>SKATE</b></div><div><b>COIMBRA</b></div>",
-                "overlay": true,
+                "overlay": false,
                 "contentAlign": "right",
                 "text": "<br><br><b>Todas as quintas-feiras</b>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"

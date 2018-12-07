@@ -43,7 +43,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 113,
+    "uniqCompNum": 114,
     "versionPublish": "4.8.6",
     "robotsText": "User-agent: *\nAllow: /\nAllow: /sitemap.htm\nSitemap: https://coimbracityrollers.github.io/sitemap.xml\n\n\n",
     "robotsSwitcher": "on",
@@ -747,20 +747,37 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/patinada-natal3-1440x865.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": false,
-                "showTitle": false,
+                "showTitle": true,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",
-                "title": "<b>COIMBRA<br> CITY <br>ROLLERS</b>",
+                "title": "<br><br><br><br><br><br><br><br>",
                 "overlay": false,
                 "contentAlign": "left",
                 "text": "<br><br><br>Incluem <b><i>ninja powers</i></b>. <br><b>Dísponíveis</b> em tamanho XL!",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://www.facebook.com/events/498573243884655/\" data-toolbar=\"-mbrBtnMove\">PARTICIPA</a> "
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://www.facebook.com/events/498573243884655/\" data-toolbar=\"-mbrBtnMove\">SABER MAIS</a> "
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/passatempo-web-1265x760.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=8AvtMCQlyCQ",
+                "customStyle1": "display-1",
+                "customStyle2": "display-5",
+                "customStyle3": "display-4",
+                "title": "<b>PASSATEMPO</b><br><b>ROLLER AND SLIDE</b><br><b>CCR</b>",
+                "overlay": true,
+                "contentAlign": "left",
+                "text": "",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"https://www.facebook.com/RollerAndSlide/posts/2300737739960684\" data-toolbar=\"-mbrBtnMove\">PARTICIPA</a> "
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/cf018110-1800x1013.jpg",
@@ -792,7 +809,7 @@
                 "customStyle3": "display-4",
                 "title": "<b>NIGHT </b><br><div><b>SKATE</b></div><div><b>COIMBRA</b></div>",
                 "overlay": true,
-                "contentAlign": "right",
+                "contentAlign": "left",
                 "text": "<br><br><b>Todas as quintas-feiras</b>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
               }

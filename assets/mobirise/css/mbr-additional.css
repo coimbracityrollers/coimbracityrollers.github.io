@@ -683,6 +683,7 @@ a:hover {
   right: 0;
   top: 0;
   z-index: 0;
+  pointer-events: none;
 }
 blockquote {
   font-style: italic;
@@ -1381,6 +1382,17 @@ body {
     flex: auto!important;
   }
 }
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #d4e700;
+  color: #000000;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow {
+  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+  border-top-color: #d4e700;
+}
 .cid-qUtiykoFNK .navbar {
   padding: .5rem 0;
   background: #212121;
@@ -2004,13 +2016,16 @@ body {
   text-align: left;
 }
 .cid-raKdqWSs8J P {
-  text-align: left;
+  text-align: right;
 }
 .cid-raKdqWSs8J B {
   color: #ffffff;
 }
 .cid-raKdqWSs8J DIV {
   text-align: left;
+}
+.cid-raKdqWSs8J I {
+  color: #d4e700;
 }
 #modal-block-2s .panel-body {
   padding: 15px;

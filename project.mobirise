@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Coimbra City Rollers",
-    "currentPage": "patinar.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -44,7 +44,7 @@
     ],
     "versionFirst": "4.7.6",
     "uniqCompNum": 121,
-    "versionPublish": "4.9.1",
+    "versionPublish": "4.9.7",
     "robotsText": "User-agent: *\nAllow: /\nAllow: /sitemap.htm\nSitemap: https://coimbracityrollers.github.io/sitemap.xml\n\n\n",
     "robotsSwitcher": "on",
     "siteUrl": "https://coimbracityrollers.github.io/",
@@ -717,13 +717,16 @@
               "text-align": "left"
             },
             "P": {
-              "text-align": "left"
+              "text-align": "right"
             },
             "B": {
               "color": "#ffffff"
             },
             "DIV": {
               "text-align": "left"
+            },
+            "I": {
+              "color": "#d4e700"
             }
           },
           "_name": "slider1",
@@ -746,8 +749,25 @@
             "slides__showBullets": true,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/cf018110-1800x1013.jpg",
+                "image": "@PROJECT_PATH@/assets/images/post-face-3-940x788.png",
                 "active": true,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=8AvtMCQlyCQ",
+                "customStyle1": "display-1",
+                "customStyle2": "display-5",
+                "customStyle3": "display-4",
+                "title": "",
+                "overlay": true,
+                "contentAlign": "left",
+                "text": "<b><i><br></i></b><br><b><i><br></i></b><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><font color=\"#d4e700\"><b><i><a href=\"https://www.facebook.com/events/386774602113715/?acontext=%7B%22source%22%3A5%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%5C%22[]%5C%22%22%7D]%2C%22has_source%22%3Atrue%7D\" target=\"_blank\">SABER MAIS</a></i></b></font>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/cf018110-1800x1013.jpg",
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,

@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Coimbra City Rollers",
-    "currentPage": "quemsomos.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -44,7 +44,7 @@
     ],
     "versionFirst": "4.7.6",
     "uniqCompNum": 123,
-    "versionPublish": "4.10.4",
+    "versionPublish": "4.10.5",
     "robotsText": "User-agent: *\nAllow: /\nAllow: /sitemap.htm\nSitemap: https://coimbracityrollers.github.io/sitemap.xml\n\n\n",
     "robotsSwitcher": "on",
     "siteUrl": "https://coimbracityrollers.github.io/",
@@ -767,7 +767,7 @@
               },
               {
                 "image": "@THEME_PATH@/components/_images/carousel/2.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -781,23 +781,6 @@
                 "contentAlign": "left",
                 "text": "<br><br><b>Todas as quintas-feiras</b>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/flyer-1-820x462.jpg",
-                "active": true,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-5",
-                "customStyle3": "display-4",
-                "title": "<b>COIMBRA&nbsp;</b><br><div><b>CITY</b></div><div><b>ROLLERS</b></div>",
-                "overlay": false,
-                "contentAlign": "left",
-                "text": "<b><i><br></i></b><br><b><i>Prefiro Patinar</i></b>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"https://www.facebook.com/cbrcityrollers/?eid=ARDK1SLEaXFfFzUWAGJVxK6-LnMV_eytTNgmTn0FBdaVRr-bLZRZ6LaHmOYH0vK1iJq1lZ09SQi-qMhm\" data-toolbar=\"-mbrBtnMove\">SABER MAIS</a> "
               }
             ]
           }

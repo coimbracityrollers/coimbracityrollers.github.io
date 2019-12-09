@@ -778,7 +778,8 @@
                 "overlay": true,
                 "contentAlign": "left",
                 "text": "<br><br><b><a href=\"https://www.facebook.com/events/449745605740074/?acontext=%7B%22ref%22%3A%223%22%2C%22ref_newsfeed_story_type%22%3A%22regular%22%2C%22feed_story_type%22%3A%22117%22%2C%22action_history%22%3A%22%5B%7B%5C%22surface%5C%22%3A%5C%22newsfeed%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22feed_story%5C%22%2C%5C%22extra_data%5C%22%3A%5B%5D%7D%5D%22%7D&amp;__xts__%5B0%5D=68.ARAHfSHFTGSgTydBWnXhchSjD4e2nms9r2qzVDK4Xxwz3u0_bte2HTtMHDdiW8o90vsH7K9TvRn8Cqc6g1gEyLCYWin4_hLc0RQdd_HJFFBbrIUPUNt6jGBAzTSYrDJiaTDSkP0lxurfcQg_GcJQBByV9ah9N9wcqyDesKWdbJ8_8eEWMxjl1LuNoQCBnIluL-5b52xVJcTV01y95L8lfbtCyp0QghURrjHGxuSJYLkdYddqG5oRm5IVzooix9IR95IZAyibOYokLy9jfAwCeQ&amp;__tn__=HH-R\" target=\"_blank\">Vem celebrar connosco!</a></b>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>",
+                "overlayOpacity": "0"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/cf018110-1800x1013.jpg",

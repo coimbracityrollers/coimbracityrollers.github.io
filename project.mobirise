@@ -766,7 +766,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/cf018110-1800x1013.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -783,12 +783,12 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-1466-627x366.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
                 "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=8AvtMCQlyCQ",
+                "videoUrl": "https://www.youtube.com/watch?v=b5LF5vMtsoc&feature=youtu.be",
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",

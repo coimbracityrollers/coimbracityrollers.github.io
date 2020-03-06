@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "Coimbra City Rollers-clone",
-    "currentPage": "media.html",
+    "name": "Coimbra City Rollers",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -733,7 +733,7 @@
               "text-align": "left"
             },
             "P": {
-              "text-align": "center"
+              "text-align": "left"
             },
             "B": {
               "color": "#ffffff"
@@ -778,7 +778,7 @@
                 "title": "<b>COIMBRA&nbsp;</b><br><div><b>CITY</b></div><div><b>ROLLERS</b></div>",
                 "overlay": false,
                 "contentAlign": "left",
-                "text": "<b><i><br></i></b><b><i><br></i></b><br><br><b><i>Prefiro Patinar</i></b>",
+                "text": "<b><i>Prefiro Patinar</i></b>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"patinar.html\" data-toolbar=\"-mbrBtnMove\">SABER MAIS</a> ",
                 "textTitle": "Coimbra City Rollers"
               },
@@ -798,7 +798,7 @@
                 "contentAlign": "left",
                 "text": "<br><br><br>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>",
-                "textTitle": "Patinar em Coimbra",
+                "textTitle": "",
                 "overlayOpacity": "0.3"
               }
             ]

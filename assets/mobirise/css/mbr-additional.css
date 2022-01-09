@@ -1,9 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
-
-
-
-
-
 body {
   font-family: Rubik;
 }
@@ -2277,8 +2271,17 @@ section.lazy-placeholder:after {
 .cid-qUtiykoFNK .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-#instagram-feed-block-1u .inst__title {
-  color: #d4e700;
+.cid-sU1hQFLEVR {
+  background: #ffffff;
+}
+.cid-sU1hQFLEVR .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-sU1hQFLEVR .video-block {
+    width: 100% !important;
+  }
 }
 .cid-rbtnfmVsC5 {
   padding-top: 15px;

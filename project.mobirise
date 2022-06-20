@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Coimbra City Rollers",
-    "currentPage": "parceiros.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -800,7 +800,7 @@
                 "overlay": true,
                 "contentAlign": "left",
                 "text": "<br><br><br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"https://www.superprof.pt/sessoes-personalizadas-adequadas-cada-pessoa-ensino-uma-forma.html.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Saber mais</a> ",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"contactos.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Saber mais</a> ",
                 "textTitle": "",
                 "overlayOpacity": "0.3"
               }

@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Coimbra City Rollers",
-    "currentPage": "politica-de-privacidade.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -752,7 +752,7 @@
             }
           },
           "_name": "slider1",
-          "_customHTML": "<section class=\"carousel slide\" group=\"Sliders &amp; Gallery\" plugins=\"YTPlayer,VimeoPlayer,SliderVideo,BootstrapCarouselSwipe\" data-interval=\"false\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"carousel\" title=\"Slides\" name=\"slides\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-carousel=\"slides\" class=\"full-screen\" mbr-carousel-embedded=\"\"></div>\n\n</section>",
+          "_customHTML": "<section class=\"carousel slide\" group=\"Sliders & Gallery\" plugins=\"YTPlayer,VimeoPlayer,SliderVideo,BootstrapCarouselSwipe\" data-interval=\"false\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"carousel\" title=\"Slides\" name=\"slides\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-carousel=\"slides\" class=\"full-screen\" mbr-carousel-embedded></div>\n\n</section>",
           "_anchor": "slider1-2r",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -771,7 +771,7 @@
             "slides__showBullets": true,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/img-8659-1876x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/ccr-1876x1066.jpg",
                 "active": true,
                 "showButtons": true,
                 "showText": true,
@@ -782,7 +782,7 @@
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",
                 "title": "<b>COIMBRA&nbsp;</b><br><div><b>CITY</b></div><div><b>ROLLERS</b></div>",
-                "overlay": true,
+                "overlay": false,
                 "contentAlign": "left",
                 "text": "<b><br></b><br><br><br><br>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"historialccr.html\" data-toolbar=\"-mbrBtnMove\">SABER MAIS</a> ",

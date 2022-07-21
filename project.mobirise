@@ -739,7 +739,8 @@
               "color": "#fafafa"
             },
             "P": {
-              "text-align": "left"
+              "text-align": "left",
+              "color": "#d4e700"
             },
             "B": {
               "color": "#ffffff"
@@ -784,9 +785,9 @@
                 "title": "<b>COIMBRA&nbsp;</b><br><div><b>CITY</b></div><div><b>ROLLERS</b></div>",
                 "overlay": false,
                 "contentAlign": "left",
-                "text": "<b><br></b><br><br><br><br>",
+                "text": "<b>5 ANOS A PATINAR EM COIMBRA</b><br><br><br><br>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"historialccr.html\" data-toolbar=\"-mbrBtnMove\">SABER MAIS</a> ",
-                "textTitle": "<b>5 ANOS A PATINAR EM COIMBRA</b>"
+                "textTitle": "<b>COIMBRA CITY ROLLERS</b>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/269962583-409531237576413-45323776949556009-n-1640x924.jpg",
@@ -806,24 +807,6 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"aprender-a-patinar.html#accordion2-1l\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Saber mais</a> ",
                 "textTitle": "",
                 "overlayOpacity": "0.3"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/cf018110-1800x1013.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-2",
-                "customStyle2": "display-5",
-                "customStyle3": "display-4",
-                "title": "<b>COIMBRA&nbsp;</b><br><div><b>CITY</b></div><div><b>ROLLERS</b></div>",
-                "overlay": true,
-                "contentAlign": "left",
-                "text": "<b><i><br></i></b><br><br><br><br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"patinar.html\" data-toolbar=\"-mbrBtnMove\">SABER MAIS</a> ",
-                "textTitle": "<font color=\"#ffffff\"><b>PREFIRO PATINAR</b></font><br>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/imagem1-1243x687.jpg",
